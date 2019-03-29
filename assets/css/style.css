@@ -93,7 +93,7 @@ section .wave:before {
   perspective: 600px;
   transition: 0.5s;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 .card .front {
   position: absolute;
@@ -156,6 +156,10 @@ section .wave:before {
   color: #a7a7a7;
   font-size: 16px;
 }
+.card .back .details .contact {
+  color: #fff;
+  font-size: 12px;
+}
 .social-icons {
   padding: 10px 0;
 }
@@ -185,10 +189,10 @@ section .wave:before {
     box-shadow: 0 0 -10px #fff;
   }
   40% {
-    box-shadow: 0 0 40px #fff;
+    box-shadow: 0 0 35px #fff;
   }
   60% {
-    box-shadow: 0 0 40px #fff;
+    box-shadow: 0 0 35px #fff;
   }
   100% {
     box-shadow: 0 0 -10px #fff;
