@@ -105,7 +105,7 @@ section .wave:before {
   backface-visibility: hidden;
   transform: rotateX(0deg);
   transition: 0.5s;
-  border-radius: 50%;
+  border-radius: 100%;
   animation: glowing 3s infinite;
 }
 .card:hover .front {
@@ -182,17 +182,17 @@ section .wave:before {
 }
 .card img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 @keyframes glowing {
   0% {
     box-shadow: 0 0 -10px #fff;
   }
   40% {
-    box-shadow: 0 0 35px #fff;
+    box-shadow: 0 0 15px #fff;
   }
   60% {
-    box-shadow: 0 0 35px #fff;
+    box-shadow: 0 0 15px #fff;
   }
   100% {
     box-shadow: 0 0 -10px #fff;
